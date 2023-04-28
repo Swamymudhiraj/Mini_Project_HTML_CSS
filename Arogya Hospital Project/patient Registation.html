@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body background="C:\Users\sunny\Downloads\moving8.gif">
+  <header>
+  <div class="logo">
+      <img src="C:\Users\sunny\Downloads\arogya hospital logo.png" width="300"alt="Arogya Hospital Logo" alt="Arogya Hospital Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="C:\Users\sunny\OneDrive\Desktop\Web Folder\Arogya Hospital Project\Arogya Home page.html">Home</a></li>
+        <li><a href="C:\Users\sunny\OneDrive\Desktop\Web Folder\Arogya Hospital Project\patient Registation.html">Patient Registration</a></li>
+        <li><a href="C:\Users\sunny\OneDrive\Desktop\Web Folder\Arogya Hospital Project\medicine records.html">Medicine Records</a></li>
+        <li><a href="C:\Users\sunny\OneDrive\Desktop\Web Folder\Arogya Hospital Project\SupplierRecords.html">Supplier Records</a></li>
+        <li class="active"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <h1>Patient Registration</h1>
+                <img src="C:\Users\sunny\Downloads\heartbeat.png" alt="Arogya hospitals" title="Arogya hospitals">
+  </header>
+  <main>
+    <section class="patient-registration">
+      <h2>Patient Details</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="aadharcard">Aadhar Card Number:</label>
+        <input type="text" id="aadharcard" name="aadharcard" required>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+      </form>
+    </section>
+    <section class="guardian-details">
+      <h2>Guardian Details</h2>
+      <form>
+        <label for="guardian-name">Guardian Name:</label>
+        <input type="text" id="guardian-name" name="guardian-name" required>
+        <label for="guardian-phone">Guardian Phone Number:</label>
+        <input type="tel" id="guardian-phone" name="guardian-phone" required>
+        <label for="guardian-city">Guardian City:</label>
+        <input type="text" id="guardian-city" name="guardian-city" required>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
